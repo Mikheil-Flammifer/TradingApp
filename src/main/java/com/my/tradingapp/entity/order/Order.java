@@ -2,6 +2,7 @@ package com.my.tradingapp.entity.order;
 
 import com.my.tradingapp.entity.portfolio.Portfolio;
 import com.my.tradingapp.entity.stock.Stock;
+import com.my.tradingapp.entity.transaction.Transaction;
 import jakarta.persistence.*;
 import lombok.*;
 

@@ -1,5 +1,6 @@
 package com.my.tradingapp.entity.stock;
 
+import com.my.tradingapp.entity.pricehistory.PriceHistory;
 import jakarta.persistence.*;
 import lombok.*;
 
