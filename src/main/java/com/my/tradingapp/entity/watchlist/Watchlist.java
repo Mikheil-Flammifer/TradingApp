@@ -1,4 +1,4 @@
-package com.my.tradingapp.watchlist;
+package com.my.tradingapp.entity.watchlist;
 
 import com.my.tradingapp.entity.stock.Stock;
 import com.my.tradingapp.entity.user.User;
