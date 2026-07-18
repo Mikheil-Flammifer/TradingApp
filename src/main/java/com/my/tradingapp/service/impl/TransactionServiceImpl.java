@@ -1,7 +1,7 @@
 package com.my.tradingapp.service.impl;
 
 import com.my.tradingapp.dto.response.TransactionResponse;
-import com.my.tradingapp.entity.Order;
+import com.my.tradingapp.entity.order.Order;
 import com.my.tradingapp.mapper.TransactionMapper;
 import com.my.tradingapp.repository.PortfolioRepository;
 import com.my.tradingapp.repository.StockRepository;

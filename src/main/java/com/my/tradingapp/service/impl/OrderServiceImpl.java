@@ -2,7 +2,7 @@ package com.my.tradingapp.service.impl;
 
 import com.my.tradingapp.dto.request.PlaceOrderRequest;
 import com.my.tradingapp.dto.response.OrderResponse;
-import com.my.tradingapp.entity.OrderStatus;
+import com.my.tradingapp.entity.order.OrderStatus;
 import com.my.tradingapp.mapper.OrderMapper;
 import com.my.tradingapp.repository.OrderRepository;
 import com.my.tradingapp.repository.PortfolioRepository;
