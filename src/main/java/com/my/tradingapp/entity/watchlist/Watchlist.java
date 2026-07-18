@@ -1,4 +1,4 @@
-package com.my.tradingapp.watchlist;
+package com.my.tradingapp.entity.watchlist;
 
 import com.my.tradingapp.entity.stock.Stock;
 import com.my.tradingapp.entity.user.User;
@@ -26,10 +26,10 @@ public class Watchlist {
     @JoinColumn(name = "user_id", nullable = false, unique = true)
     private User user;
 
-    // Many-to-many: a watchlist has many stocks; a stock can be on many watchlists
+    // Many-to-many: a watchlist has many stocks, a stock can be on many watchlists
     @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(
-            name = "watchlist_stocks",                          // join table name
+            name = "watchlist_stocks",
             joinColumns = @JoinColumn(name = "watchlist_id"),
             inverseJoinColumns = @JoinColumn(name = "stock_id")
     )
