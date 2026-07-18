@@ -27,6 +27,7 @@ public class AuthServiceImpl implements AuthService {
     private final PortfolioService portfolioService;
     private final WatchlistService watchlistService;
     private final UserMapper userMapper;
+
     // JwtService will be injected here once created
 
     @Override
