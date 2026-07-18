@@ -1,6 +1,6 @@
 package com.my.tradingapp.repository;
 
-import com.my.tradingapp.entity.watchlist.Watchlist;
+import com.my.tradingapp.watchlist.Watchlist;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
