@@ -33,9 +33,11 @@ public class User {
 
     @Enumerated(EnumType.STRING)
     @Column(name = "role", nullable = false)
+    @Builder.Default
     private UserRole userRole = UserRole.USER;
 
     @Column(name = "verified")
+    @Builder.Default
     private Boolean isAccountVerified = false;
 
     @Column(name = "reset_otp")
